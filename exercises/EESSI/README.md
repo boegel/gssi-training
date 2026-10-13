@@ -36,8 +36,8 @@ ls: /cvmfs/software.eessi.io: No such file or directory
 ### EESSI not available
 If EESSI is not available on the system you want to use it on their are a number of options.
 If you have root permissions on the system you can do a native installation of
-[cvmfs](https://cvmfs.docs.cern.ch/mkdocs/). Which is the delivery machanism for software in
-EESSI. If you do not have root permissions you can also use cvmfsexec or containers.
+[CernVM-FS](https://cvmfs.docs.cern.ch/mkdocs/), which is the delivery machanism for software in
+EESSI. If you do not have root permissions you can also use `cvmfsexec` or a container.
 
 Check out the EESSI documentation for the different instructions on making EESSI available:
 - [Containers](https://www.eessi.io/docs/getting_access/eessi_container/)
@@ -55,7 +55,7 @@ the software and specific version you require is already available. You can also
 To get access to different EESSI versions you can run:
 ```
 module purge
-module load EESSI/2023.06
+module load EESSI/2025.06
 ```
 
 EESSI provides a number of demo's for software that is already available in the stack. Feel free
@@ -87,9 +87,9 @@ stack and build on top of it with EasyBuild, Python venv, spack, ...
 For instructions:
 - [EESSI-extend (building ontop with EasyBuild)](https://www.eessi.io/docs/available_software/detail/EESSI-extend/)
 - [Python venv](https://vscentrum.github.io/gssi-training/exercises/python/)
-- [with spack](https://www.eessi.io/docs/blog/2026/01/09/Spack-on-top-of-EESSI-PoC/)
+- [with Spack](https://www.eessi.io/docs/blog/2026/01/09/Spack-on-top-of-EESSI-PoC/)
 
 ### Contributing to EESSI
-If you want your software to be available on wide range of systems and it is not yet in EESSI.
+If you want your software to be available on wide range of systems and it is not yet in EESSI,
 You can contribute it yourself, see 
 [Overview of adding software to EESSI](https://www.eessi.io/docs/adding_software/overview/#overview-of-adding-software-to-eessi).

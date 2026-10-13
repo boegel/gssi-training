@@ -87,6 +87,7 @@ The following links provide instructions for the exercises related to each tool
 discussed in the training:
 
 - [Central software stack](exercises/central_software_stack)
+- [EESSI](exercises/EESSI)
 - [Conda / Mamba / Pixi](exercises/conda_mamba_pixi)
 - [Python + pip + venv + uv](exercises/python)
 - [Installing R packages](exercises/r)
