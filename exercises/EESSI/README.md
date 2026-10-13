@@ -28,7 +28,7 @@ source /cvmfs/software.eessi.io/versions/2025.06/init/lmod/bash
 ```
 
 If you are on another system and you get the following return. EESSI is not available and
-you should follow the instructions [here](# EESSI not available).
+you should follow the instructions below.
 ```
 ls: /cvmfs/software.eessi.io: No such file or directory
 ```
