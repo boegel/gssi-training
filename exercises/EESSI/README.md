@@ -14,8 +14,8 @@ relevant links:
 ### EESSI available (recommended exercise)
 In the following excercise we will show how to check whether EESSI is available on the system.
 And how to start using it.
-*Check if EESSI is available*
 ```
+# Check if EESSI is available
 ls /cvmfs/software.eessi.io
 ```
 This will return the following on all systems at VSC sites.
