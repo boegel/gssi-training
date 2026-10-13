@@ -104,7 +104,7 @@ If you have any questions related to this training session, please contact
 The speakers and organisers of this session are:
 
 - Kenneth Hoste, Lara Peeters (HPC support team, Ghent University)
-- Alex Domingo, Sam Moors, Cintia Willemyns (HPC support team, Vrije Universiteit Brussel)
+- Alex Domingo, Sam Moors, Jarne Renders, Cintia Willemyns (HPC support team, Vrije Universiteit Brussel)
 - Steven Vandenbrande, Maxime Van den Bossche (HPC support team, KU Leuven)
 - Robin Verschoren (HPC support team, University of Antwerp)
 
