@@ -5,7 +5,7 @@ Try completing the following exercises in your VSC account.
 ## EasyBuild
 
 * [install EasyBuild](https://docs.easybuild.io/installation/) in a Python virtual environment, including some optional dependencies like `rich` and `archspec`;
-* [configure EasyBuild](https://docs.easybuild.io/configuration/) to use `$HOME/easybuild` for software installations, module files, and sources, and `/tmp/$USER/easybuild` as location for (temporary) build directories;
+* [configure EasyBuild](https://docs.easybuild.io/configuration/) to use `$VSC_DATA/easybuild` for software installations, module files, and sources, and `/tmp/$USER/easybuild` as location for (temporary) build directories;
 * install `tblite-0.4.0-gfbf-2024a.eb` on top of the modules that are available centrally (you will need to use the `--rebuild` since the corresponding module is likely already available);
 * create an easyconfig file for the [latest version of `tblite`](https://pypi.org/project/tblite/) (0.7.0) using the `gfbf/2026.1` toolchain, starting from `tblite-0.4.0-gfbf-2024a.eb`;
   * use your easyconfig to check how many modules need to be installed before tblite 0.7.0 can be installed;
